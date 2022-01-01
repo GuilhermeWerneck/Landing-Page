@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+    font-family: poppins;
+}
+
+header{
+    display: flex;
+    margin-top: 21px;
+    align-items: center;
+    color: #414141;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+#menu .ul-header{
+    display: inline-flex;
+}
+
+#menu .li-header{
+    font-weight:800;   
+    font-size: 18px;
+    line-height: 27px;
+    font-size :18px;
+    Line-height :27px;
+    margin-left: 30px;
+    list-style: none;
+}
+#menu .li-header:hover{
+    transition: 0.3s;
+    color:rgb(94, 94, 238);
+}
+
+.bolha{
+    position: absolute;
+    border-radius: 50%;
+    bottom: -100px;
+    z-index: -3;
+    opacity: 0.1;
+    right: -150px;
+    background-color: slategray;
+    width: 600px;
+    height: 900px;
+}
+
+#bannner-img{
+    position: absolute;
+    right: 60px;
+    bottom: 80px;
+}
+
+.img-banner{
+    height: 505px;
+    width: 560px;
+}
+
+#sobre{
+    margin-top: 109px;
+    margin-left: 120px;
+}
+
+.p-sobre{
+    font-size: 64px;
+    color: #414141;
+    font-weight: 600;
+}
+
+.sub-sobre{
+    margin: 10px 20px 20px 0;
+    max-width: 630px;
+    font-weight: 600;
+    color: gray;
+    font-size: 24px;
+}
+
+.btn-sobre{
+    border-radius: 8px;
+    color:white;
+    width: 170px;
+    background-color:rgb(94, 94, 238);
+    border: none;
+    padding: 15px;
+}
