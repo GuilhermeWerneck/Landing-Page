@@ -41,32 +41,34 @@ header{
 .bolha{
     position: absolute;
     border-radius: 50%;
-    bottom: -100px;
+    bottom: -120px;
     z-index: -3;
     opacity: 0.1;
-    right: -150px;
+    right: -350px;
     background-color: slategray;
-    width: 600px;
-    height: 900px;
+    width: 1100px;
+    height: 120% ;
 }
 
 #bannner-img{
     position: absolute;
-    right: 60px;
-    bottom: 80px;
+    right: 80px;
+    bottom: 23%;
 }
 
 .img-banner{
-    height: 505px;
-    width: 560px;
+    height:600zpx;
+    width: 740px;
 }
 
 #sobre{
-    margin-top: 109px;
-    margin-left: 120px;
+    flex-wrap: nowrap;
+    margin-top: 210px;
+    margin-left: 180px;
 }
 
 .p-sobre{
+    max-width: 1193px;
     font-size: 64px;
     color: #414141;
     font-weight: 600;
